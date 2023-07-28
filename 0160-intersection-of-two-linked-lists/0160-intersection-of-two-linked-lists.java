@@ -19,6 +19,6 @@ public class Solution {
             pointerB = (pointerB == null) ? headA : pointerB.next;
         }
 
-        return pointerA;
+        return pointerB;
     }
 }
