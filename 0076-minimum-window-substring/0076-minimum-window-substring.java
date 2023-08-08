@@ -2,8 +2,8 @@ class Solution {
     public String minWindow(String s, String t) {
         if(s.length() < t.length()) return "";
 
-        int[] tFrequency = new int[127];
-        int[] sFrequency = new int[127];
+        int[] tFrequency = new int[128];
+        int[] sFrequency = new int[128];
 
         for(char c : t.toCharArray()){
             tFrequency[c]++;
