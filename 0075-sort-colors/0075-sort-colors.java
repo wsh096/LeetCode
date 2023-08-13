@@ -4,6 +4,9 @@ class Solution {
         int n = nums.length;
         timSort(nums, n);
     }
+    private int min(int a, int b){
+        return a > b ? b : a;
+    }
     public void insertionSort(int[] array, int left, int right){
         for(int i = left + 1; i <= right; i++){
             int temp = array[i];
@@ -56,8 +59,8 @@ class Solution {
         }
         for(int size = RUN; size < n; size = 2 * size){
             for(int left = 0; left < n; left += 2 * size) {
-                int mid = Math.min((left + size - 1), (n - 1));
-                int right = Math.min((left + 2 * size - 1), (n - 1));
+                int mid = min((left + size - 1), (n - 1));
+                int right = min((left + 2 * size - 1), (n - 1));
                 merge(array, left, mid, right);
             }
         }
