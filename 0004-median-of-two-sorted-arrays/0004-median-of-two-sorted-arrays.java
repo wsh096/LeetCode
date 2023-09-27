@@ -1,7 +1,6 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int len1 = nums1.length;
-        int len2 = nums2.length;
+        int len1 = nums1.length, len2 = nums2.length;
         int len = len1 + len2;
         int[] merged = new int[len];
 
@@ -18,23 +17,19 @@ class Solution {
             k++;
         }
 
-        while(i < len1){//남은 경우
-        merged[k] = nums1[i];
-        i++;
-        k++;
+        while(i < len1){
+            merged[k++] = nums1[i++];
+        }
+        while(j < len2){
+            merged[k++] = nums2[j++];
         }
 
-        while(j < len2){//남은 경우
-        merged[k] = nums2[j];
-        j++;
-        k++;
+        int mid1 = merged[len / 2];
+        if(len % 2 == 0){
+            int mid2 = merged[len/2 - 1];
+            return (double)(mid1 + mid2) / 2;
         }
-        
-        int mid1 = merged[len/2];
-       if(len % 2 == 0){
-           int mid2 = merged[len/2-1];
-           return (double)(mid1+mid2)/2;
-       }
         return (double)mid1;
+        
     }
 }
