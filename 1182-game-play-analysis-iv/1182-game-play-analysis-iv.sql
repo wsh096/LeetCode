@@ -1,3 +1,4 @@
+# Write your MySQL query statement below
 SELECT COALESCE(ROUND(
          COUNT(DISTINCT a.player_id) / total_players, 2
        ), 0) AS fraction
