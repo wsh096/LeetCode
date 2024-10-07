@@ -7,7 +7,7 @@ public:
         int idx = 0;
         for(int i : nums){
             if(map.empty()){
-                map.insert((make_pair(i, idx++)));
+                map[i] = idx++;
             }else{
                 //target이 되는 형태가 있는 경우
                 if(map.find(target - i) != map.end()){
