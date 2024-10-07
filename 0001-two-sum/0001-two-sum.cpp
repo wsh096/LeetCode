@@ -1,14 +1,22 @@
+#include <unordered_map>
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
+        //Index, nums
         unordered_map<int, int> map;
-        for(int i = 0; i < nums.size(); i++){
-            int j = target - nums[i];
-            if(map.find(j) != map.end()){
-                return {map[j], i};
+        int idx = 0;
+        for(int i : nums){
+            if(map.empty()){
+                map.insert((make_pair(i, idx++)));
+            }else{
+                //target이 되는 형태가 있는 경우
+                if(map.find(target - i) != map.end()){
+                    return {map[target - i], idx};
+                }else{
+                    map[i] = idx++;
+                }
             }
-            map[nums[i]] = i;
         }
-        return {0, 0};        
+        return {0};
     }
 };
