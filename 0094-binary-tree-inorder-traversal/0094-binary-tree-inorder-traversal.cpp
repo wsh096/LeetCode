@@ -18,7 +18,7 @@ public:
     }
 private:
     void inorder(TreeNode* root, vector<int>& answer){
-        if(root == nullptr){
+        if(!root){
             return;
         }
         inorder(root -> left, answer);
