@@ -6,9 +6,16 @@ public:
             return false;
             }
         string origin = to_string(x);
-        string change = origin;
-        reverse(change.begin(), change.end());
-
-        return origin == change;
+        int p1 = 0;
+        int p2 = origin.size() - 1;
+        while(p1 < p2){
+            if(origin[p1] == origin[p2]){
+                p1++;
+                p2--;
+            }else{
+                return false;
+            }
+        }
+        return true;
     }
 };
