@@ -1,4 +1,4 @@
-
+#include <algorithm>
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -6,10 +6,9 @@ public:
             return false;
             }
         string origin = to_string(x);
-        string change;
-        for(int i = origin.size() - 1; i >=0 ; i--){
-            change += origin[i];
-        }
+        string change = origin;
+        reverse(change.begin(), change.end());
+
         return origin == change;
     }
 };
