@@ -28,13 +28,13 @@ public:
 private:
     void digittostring(queue<string>& q, char num){
         int limit = q.size();
+        vector<char> letters = phone_numbers[num];
         while(limit-- > 0){
-            for(int i = 0; i < phone_numbers[num].size(); i++){
-                string temp = q.front();
-                temp += phone_numbers[num][i];
-                q.push(temp);
-            }
+            string temp = q.front();
             q.pop();
+            for(char letter : letters){
+                q.push(temp + letter);
+            }
         }
     }
 };
