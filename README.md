@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/wsh096/LeetCode/tree/master/0001-two-sum) |
+| [0136-single-number](https://github.com/wsh096/LeetCode/tree/master/0136-single-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -66,4 +67,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/wsh096/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/wsh096/LeetCode/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
