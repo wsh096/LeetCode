@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/wsh096/LeetCode/tree/master/0001-two-sum) |
+| [0035-search-insert-position](https://github.com/wsh096/LeetCode/tree/master/0035-search-insert-position) |
 | [0118-pascals-triangle](https://github.com/wsh096/LeetCode/tree/master/0118-pascals-triangle) |
 | [0136-single-number](https://github.com/wsh096/LeetCode/tree/master/0136-single-number) |
 ## Hash Table
@@ -76,4 +77,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0118-pascals-triangle](https://github.com/wsh096/LeetCode/tree/master/0118-pascals-triangle) |
+## Binary Search
+|  |
+| ------- |
+| [0035-search-insert-position](https://github.com/wsh096/LeetCode/tree/master/0035-search-insert-position) |
 <!---LeetCode Topics End-->
