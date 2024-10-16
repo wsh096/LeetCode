@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0035-search-insert-position](https://github.com/wsh096/LeetCode/tree/master/0035-search-insert-position) |
 | [0118-pascals-triangle](https://github.com/wsh096/LeetCode/tree/master/0118-pascals-triangle) |
 | [0136-single-number](https://github.com/wsh096/LeetCode/tree/master/0136-single-number) |
+| [0283-move-zeroes](https://github.com/wsh096/LeetCode/tree/master/0283-move-zeroes) |
 ## Hash Table
 |  |
 | ------- |
@@ -81,4 +82,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/wsh096/LeetCode/tree/master/0035-search-insert-position) |
+## Two Pointers
+|  |
+| ------- |
+| [0283-move-zeroes](https://github.com/wsh096/LeetCode/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
