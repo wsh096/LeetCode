@@ -8,19 +8,29 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
- #include <algorithm>
- 
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
-        string s = "";
-        
-        while(head){
-            s += to_string(head->val);
-            head = head -> next;
+        if(!head -> next) return true;
+
+        ListNode* slow = head;
+        ListNode* fast = head;
+        ListNode* dummy = NULL;
+        ListNode* temp = NULL;
+
+        while(fast && fast -> next){
+            fast = fast -> next -> next;
+            temp = slow -> next;
+            slow -> next = dummy;
+            dummy = slow;
+            slow = temp;
         }
-        string t = s;
-        reverse(t.begin(), t.end());
-        return s == t;
+        if(fast && !fast -> next) slow = slow -> next;
+        while(slow){
+            if(slow -> val != dummy -> val) return false;
+            slow = slow -> next;
+            dummy = dummy -> next;
+        }
+        return true;
     }
 };
