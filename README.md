@@ -10,12 +10,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0035-search-insert-position](https://github.com/wsh096/LeetCode/tree/master/0035-search-insert-position) |
 | [0118-pascals-triangle](https://github.com/wsh096/LeetCode/tree/master/0118-pascals-triangle) |
 | [0136-single-number](https://github.com/wsh096/LeetCode/tree/master/0136-single-number) |
+| [0169-majority-element](https://github.com/wsh096/LeetCode/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/wsh096/LeetCode/tree/master/0283-move-zeroes) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/wsh096/LeetCode/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/wsh096/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0169-majority-element](https://github.com/wsh096/LeetCode/tree/master/0169-majority-element) |
 ## String
 |  |
 | ------- |
@@ -90,4 +92,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/wsh096/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/wsh096/LeetCode/tree/master/0283-move-zeroes) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/wsh096/LeetCode/tree/master/0169-majority-element) |
+## Sorting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/wsh096/LeetCode/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/wsh096/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
