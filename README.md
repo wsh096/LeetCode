@@ -56,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/wsh096/LeetCode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/wsh096/LeetCode/tree/master/0009-palindrome-number) |
+| [0070-climbing-stairs](https://github.com/wsh096/LeetCode/tree/master/0070-climbing-stairs) |
 ## Linked List
 |  |
 | ------- |
@@ -82,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/wsh096/LeetCode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/wsh096/LeetCode/tree/master/0118-pascals-triangle) |
 ## Binary Search
 |  |
@@ -104,4 +106,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/wsh096/LeetCode/tree/master/0169-majority-element) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/wsh096/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
